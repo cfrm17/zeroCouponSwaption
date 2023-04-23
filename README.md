@@ -1,6 +1,6 @@
 # Zero Coupon Swaption Valuation
 
-A zero-coupon swaption is an option on a zero coupon swap in which no coupon is paid before the swap maturity. The final floating side payment is compounded from the pre-determined fixed rate. There are many different types of swaps, such as accumulator swap (https://finpricing.com/lib/FxAccumulator.html).
+A zero-coupon swaption is an option on a zero coupon swap in which no coupon is paid before the swap maturity. The final floating side payment is compounded from the pre-determined fixed rate. There are many different types of swaps.
 
 The study shows that pricing an interest rate zero coupon swaption is equivalent to pricing a corresponding variable notional and fixed rate swaptions. An interest rate variable notional and fixed rate (VNFR) swap is a fixed rate versus floating rate swap when notional principals and fixed rates/floating spread may not uniformly be specified through swap periods. A variable notional and fixed rate swaption is an option on a VNFR swap.
 
@@ -51,3 +51,8 @@ To price a Bermudan zero coupon swaption, A binomial tree approach is used to pr
 The calculation of the constant volatility depends on a correlation matrix which may be subjective and twisted. In some severe cases, the correlation matrix may not maintain its semi-positive definite property.
 
 An alternative approach is proposed to price Bermudan zero coupon swaptions based on Bermudan variable notional swaption model. It has been proved that a zero coupon swaption, under some normal conditions, is a special case of a variable notional swaption. The transformation of a Bermudan zero coupon swaption into a Bermudan variable notional swaption is straightforward.
+
+Reference:
+
+https://finpricing.com/knowledge.html
+
